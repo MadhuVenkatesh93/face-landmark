@@ -1,4 +1,5 @@
-
+#This code is copied from https://www.pyimagesearch.com/2017/04/17/real-time-facial-landmark-detection-opencv-python-dlib/
+# built this script only for hands on practice 
 
 from imutils.video import VideoStream
 from imutils import face_utils
@@ -69,24 +70,5 @@ for i in range(len(jaw_line)):
 print("Attribute 22: Jaw gradient =",np.abs(num/den)) 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-# if the `q` key was pressed, break from the loop
-    # if key == ord("q"):
-    #     break
-
-# do a bit of cleanup
-# cv2.destroyAllWindows()
-#vs.stop()
+ 
 
